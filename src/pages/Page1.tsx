@@ -80,7 +80,7 @@ const Page1 = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.3, duration: 0.6 }}
         >
-          Nhấn vào trái tim để tiếp tục...
+          Nhấn vào trái tim để khám phá...
         </motion.p>
       </motion.div>
     </div>
