@@ -1,4 +1,4 @@
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { imgSecondImage } from "../assets/image.constants";
 import { useNavigate } from "react-router-dom";
@@ -118,15 +118,15 @@ const Page2 = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.4, duration: 0.8 }}
           >
-            <p className="text-gray-600 text-sm md:text-base">
+            {/* <p className="text-gray-600 text-sm md:text-base">
               Em muốn tiếp tục đọc lá thư này không?
-            </p>
+            </p> */}
             <button
               onClick={onNext}
               className="group relative px-8 py-4 bg-gradient-to-r from-red-500 to-pink-500 text-white rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"
             >
-              <span>Tiếp tục</span>
-              <ChevronDown
+              <span>Kế gần anh hơn</span>
+              <ChevronRight
                 size={20}
                 className="group-hover:translate-y-1 transition-transform"
               />
