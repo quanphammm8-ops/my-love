@@ -44,7 +44,7 @@ const Page3 = () => {
                 visible: { opacity: 1, y: 0 },
               }}
             >
-              Một Quyết Định Thay Đổi Tất Cả
+              Khoảnh khắc quyết định
             </motion.h1>
 
             <motion.div
@@ -83,13 +83,16 @@ const Page3 = () => {
                 }}
               >
                 <p className="text-lg font-semibold text-gray-800">
-                  Anh có thể không đẹp trai nhưng được cái anh trai mặt 😎
+                  Anh đẹp trai ❌
                 </p>
                 <p className="text-lg font-semibold text-gray-800">
-                  Anh có thể không giàu nhưng được cái anh nghèo 😅
+                  Anh trai mặt ✅
+                </p>
+                <p className="text-lg font-semibold text-gray-800">
+                  Anh không giàu nhưng...
                 </p>
                 <p className="text-lg text-gray-600 italic">
-                  (Ơ, sai sai hay sao nhỉ...)
+                  (Ơ, bối rối quá, nhưng gì nhỉ...)
                 </p>
               </motion.div>
 
@@ -100,7 +103,7 @@ const Page3 = () => {
                   visible: { opacity: 1, y: 0 },
                 }}
               >
-                Anh chỉ muốn nói là...
+                Nhưng anh chỉ muốn nói là...
               </motion.p>
 
               <motion.p
@@ -187,14 +190,10 @@ const Page3 = () => {
                   <h3 className="text-xl md:text-2xl font-bold">Em Đồng Ý</h3>
                   <p className="text-sm md:text-base">
                     Chấp nhận tình yêu này và bắt đầu một hành trình tuyệt vời
-                    cùng nhau. Anh sẽ luôn bên em mỗi khi xúc gạo.
+                    cùng nhau.
                   </p>
                   <div className="pt-3 flex items-center justify-center gap-2">
-                    <span>Nhấn để tiếp tục</span>
-                    <ArrowRight
-                      size={20}
-                      className="group-hover:translate-x-2 transition-transform"
-                    />
+                    <span>Chi, Chi đồng ý đi Chi 👉👈</span>
                   </div>
                 </div>
               </motion.button>
@@ -229,11 +228,7 @@ const Page3 = () => {
                     sàng. Anh hiểu và tôn trọng quyết định này của em.
                   </p>
                   <div className="pt-3 flex items-center justify-center gap-2">
-                    <span>Chọn tùy chọn này</span>
-                    <ArrowRight
-                      size={20}
-                      className="group-hover:translate-x-2 transition-transform"
-                    />
+                    <span>😱😱😱</span>
                   </div>
                 </div>
               </motion.button>
