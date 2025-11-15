@@ -90,7 +90,7 @@ const Page4 = () => {
               <p className="text-lg md:text-2xl text-gray-600 leading-relaxed">
                 Từ hôm nay, anh sẽ là chàng trai bên cạnh em, chăm sóc, bảo vệ,
                 và yêu thương em hết mức. Mỗi ngày bên em sẽ là ngày hạnh phúc
-                nhất. Anh tin rằng, dù sóng gió thế nào, anh vẫn đủ bình tĩnh và đủ yêu để đứng bên cạnh em đến cuối cùng.
+                nhất. Anh tin rằng, dù sóng gió thế nào, anh vẫn đủ bình tĩnh và đủ yêu để đứng bên cạnh em đến cuối cùng. Cái kết cuối cùng anh muốn sẽ là một thùng gạo đầy, bắt đầu xúc gạo hoy!!!
               </p>
             </div>
 
