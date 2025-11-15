@@ -75,18 +75,22 @@ const Page4 = () => {
             </h1>
 
             <h2 className="text-4xl md:text-6xl font-bold text-gray-800">
-              Em đã chấp nhận!
+              Phù phù phù (thở dài)
+            </h2>
+
+            <h2 className="text-4xl md:text-6xl font-bold text-gray-800">
+              Em đã chấp nhận, thót hết cả tim!
             </h2>
 
             <div className="bg-white/95 backdrop-blur-sm rounded-3xl shadow-2xl p-8 md:p-12 space-y-6">
               <p className="text-3xl md:text-4xl font-bold text-gray-800">
-                Cảm ơn em đã mang đến hạnh phúc này!
+                Cảm ơn em!
               </p>
 
               <p className="text-lg md:text-2xl text-gray-600 leading-relaxed">
                 Từ hôm nay, anh sẽ là chàng trai bên cạnh em, chăm sóc, bảo vệ,
                 và yêu thương em hết mức. Mỗi ngày bên em sẽ là ngày hạnh phúc
-                nhất.
+                nhất. Anh tin rằng, dù sóng gió thế nào, anh vẫn đủ bình tĩnh và đủ yêu để đứng bên cạnh em đến cuối cùng.
               </p>
             </div>
 
