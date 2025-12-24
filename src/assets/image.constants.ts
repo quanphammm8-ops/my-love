@@ -1,3 +1,9 @@
 export { default as imgFirstImage } from './first-image.jpeg';
 export { default as imgSecondImage } from './second-image.jpeg';
 export { default as imgThirdImage } from './third-image.png';
+export { default as imgChristmas1 } from './christmas-1.jpg';
+export { default as imgChristmas2 } from './christmas-2.jpg';
+export { default as imgChristmas3 } from './christmas-3.jpg';
+export { default as imgChristmas4 } from './christmas-4.jpg';
+export { default as imgChristmas5 } from './christmas-5.jpg';
+export { default as imgChristmas6 } from './christmas-6.jpg';

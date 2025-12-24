@@ -12,6 +12,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import music from "./assets/music.mp3";
+import Page6 from "./pages/Page6";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -24,29 +25,44 @@ function ScrollToTop() {
 }
 
 function BackgroundMusic() {
+  const location = useLocation();
   const [audio] = useState(() => new Audio(music));
 
   useEffect(() => {
-    const tryPlay = () => {
-      audio.loop = true;
-      audio.play().catch(() => {
-        console.log("Autoplay block, interact waiting...");
-      });
-    };
+    audio.loop = true;
 
-    tryPlay();
+    const MUSIC_ROUTES = [
+      "/home",
+      "/express-one-feelings",
+      "/choose-love",
+      "/approve-love",
+      "/deny-love",
+    ];
+
+    const shouldPlay = MUSIC_ROUTES.includes(location.pathname);
+
+    if (shouldPlay) {
+      audio.play().catch(() => {
+        console.log("Autoplay blocked, waiting for user interaction");
+      });
+    } else {
+      audio.pause();
+      audio.currentTime = 0; 
+    }
 
     const handleUserInteraction = () => {
-      audio.play().catch(() => {});
+      if (shouldPlay) {
+        audio.play().catch(() => {});
+      }
       window.removeEventListener("click", handleUserInteraction);
     };
+
     window.addEventListener("click", handleUserInteraction);
 
     return () => {
-      audio.pause();
       window.removeEventListener("click", handleUserInteraction);
     };
-  }, [audio]);
+  }, [location.pathname, audio]);
 
   return null;
 }
@@ -63,6 +79,7 @@ function App() {
         <Route path={"/choose-love"} element={<Page3 />} />
         <Route path={"/approve-love"} element={<Page4 />} />
         <Route path={"/deny-love"} element={<Page5 />} />
+        <Route path={"/merry-christmas"} element={<Page6 />} />
       </Routes>
     </BrowserRouter>
   );
