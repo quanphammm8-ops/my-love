@@ -7,3 +7,8 @@ export { default as imgChristmas3 } from './christmas-3.jpg';
 export { default as imgChristmas4 } from './christmas-4.jpg';
 export { default as imgChristmas5 } from './christmas-5.jpg';
 export { default as imgChristmas6 } from './christmas-6.jpg';
+export { default as imgChild1 } from './child1.jpg';
+export { default as imgChild2 } from './child2.jpg';
+export { default as imgChild3 } from './child3.jpg';
+export { default as imgChild4 } from './child4.jpg';
+export { default as imgChild5 } from './child5.jpg';

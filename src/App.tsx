@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import music from "./assets/music.mp3";
 import Page6 from "./pages/Page6";
+import Page7 from "./pages/Page7";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -80,6 +81,7 @@ function App() {
         <Route path={"/approve-love"} element={<Page4 />} />
         <Route path={"/deny-love"} element={<Page5 />} />
         <Route path={"/merry-christmas"} element={<Page6 />} />
+        <Route path={"/happy-new-year"} element={<Page7 />} />
       </Routes>
     </BrowserRouter>
   );
