@@ -106,14 +106,14 @@ const Page7 = () => {
 
         localStorage.setItem("lixi_result_2026", finalIndex.toString());
 
-        setTimeout(() => {
+        // setTimeout(() => {
           setShowResult(true);
           if (!idleIntervalRef.current) {
             idleIntervalRef.current = setInterval(() => {
               setCurrentIndex((prev) => (prev + 1) % lixi.length);
             }, 2000);
           }
-        }, 500);
+        // }, 500);
         return;
       }
 
